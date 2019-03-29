@@ -9,7 +9,7 @@ from collections import OrderedDict
 reader = codecs.getreader( 'utf-8' )
 
 # Obtain here: https://api.slack.com/custom-integrations/legacy-tokens
-token = 'xoxp-10235169329-10250138849-399991369908-e26cf174a62f2ef5f313abe052c159c5'
+token = '' # EACH USER MUST PUT IN THEIR OWN TOKEN AND THEN REMOVE IT BEFORE THEY SUBMIT A MODIFIED SCRIPT TO THE REPO
 
 # Set it to delete only this user's files. Handy if you are not admin.
 member_id= ''
